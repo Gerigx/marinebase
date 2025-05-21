@@ -3,10 +3,11 @@ package de.hsos.swa.entity;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name="Base")
+//@Table(name="Base")
 public class Base {
     @Id
     @GeneratedValue
